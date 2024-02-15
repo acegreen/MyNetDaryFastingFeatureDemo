@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2382388D2A7F27070008BBF3 /* Fast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2382388C2A7F27070008BBF3 /* Fast.swift */; };
+		238238922A7F2DBE0008BBF3 /* FastGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238238912A7F2DBE0008BBF3 /* FastGridView.swift */; };
+		238238942A80046F0008BBF3 /* DashboardingFastingView-ALT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238238932A80046F0008BBF3 /* DashboardingFastingView-ALT.swift */; };
+		238238962A81B5510008BBF3 /* CircularProgressStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238238952A81B5510008BBF3 /* CircularProgressStyle.swift */; };
+		238238982A82B53A0008BBF3 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238238972A82B53A0008BBF3 /* CalendarView.swift */; };
+		23AB21E72A7ECB080064D41F /* MyNetDiaryFastingDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AB21E62A7ECB080064D41F /* MyNetDiaryFastingDemoApp.swift */; };
+		23AB21E92A7ECB080064D41F /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AB21E82A7ECB080064D41F /* CircularProgressView.swift */; };
+		23AB21EB2A7ECB090064D41F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23AB21EA2A7ECB090064D41F /* Assets.xcassets */; };
+		23AB21EF2A7ECB090064D41F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23AB21EE2A7ECB090064D41F /* Preview Assets.xcassets */; };
+		23AB21F62A7ECCB70064D41F /* DashboardFastingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AB21F52A7ECCB70064D41F /* DashboardFastingView.swift */; };
+		23AB21FA2A7ED01F0064D41F /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AB21F92A7ED01F0064D41F /* View+Extensions.swift */; };
+		23AB21FD2A7ED5B10064D41F /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AB21FC2A7ED5B10064D41F /* Date+Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2382388C2A7F27070008BBF3 /* Fast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fast.swift; sourceTree = "<group>"; };
+		238238912A7F2DBE0008BBF3 /* FastGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastGridView.swift; sourceTree = "<group>"; };
+		238238932A80046F0008BBF3 /* DashboardingFastingView-ALT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DashboardingFastingView-ALT.swift"; sourceTree = "<group>"; };
+		238238952A81B5510008BBF3 /* CircularProgressStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressStyle.swift; sourceTree = "<group>"; };
+		238238972A82B53A0008BBF3 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		23AB21E32A7ECB080064D41F /* MyNetDiaryFastingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyNetDiaryFastingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23AB21E62A7ECB080064D41F /* MyNetDiaryFastingDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNetDiaryFastingDemoApp.swift; sourceTree = "<group>"; };
+		23AB21E82A7ECB080064D41F /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
+		23AB21EA2A7ECB090064D41F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23AB21EC2A7ECB090064D41F /* MyNetDiaryFastingDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyNetDiaryFastingDemo.entitlements; sourceTree = "<group>"; };
+		23AB21EE2A7ECB090064D41F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		23AB21F52A7ECCB70064D41F /* DashboardFastingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardFastingView.swift; sourceTree = "<group>"; };
+		23AB21F92A7ED01F0064D41F /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		23AB21FC2A7ED5B10064D41F /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23AB21E02A7ECB080064D41F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2382388E2A7F27140008BBF3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2382388C2A7F27070008BBF3 /* Fast.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		23904B462A9EB67500EB2D0B /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				238238952A81B5510008BBF3 /* CircularProgressStyle.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		23AB21DA2A7ECB080064D41F = {
+			isa = PBXGroup;
+			children = (
+				23AB21E52A7ECB080064D41F /* MyNetDiaryFastingDemo */,
+				23AB21E42A7ECB080064D41F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23AB21E42A7ECB080064D41F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23AB21E32A7ECB080064D41F /* MyNetDiaryFastingDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23AB21E52A7ECB080064D41F /* MyNetDiaryFastingDemo */ = {
+			isa = PBXGroup;
+			children = (
+				23AB21F82A7ED00A0064D41F /* Bundle */,
+				2382388E2A7F27140008BBF3 /* Models */,
+				23AB21F72A7ED0000064D41F /* Views */,
+				23904B462A9EB67500EB2D0B /* Modifiers */,
+				23AB21FB2A7ED0220064D41F /* Extensions */,
+				23AB21EA2A7ECB090064D41F /* Assets.xcassets */,
+				23AB21ED2A7ECB090064D41F /* Preview Content */,
+			);
+			path = MyNetDiaryFastingDemo;
+			sourceTree = "<group>";
+		};
+		23AB21ED2A7ECB090064D41F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				23AB21EE2A7ECB090064D41F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		23AB21F72A7ED0000064D41F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				23AB21F52A7ECCB70064D41F /* DashboardFastingView.swift */,
+				238238932A80046F0008BBF3 /* DashboardingFastingView-ALT.swift */,
+				238238912A7F2DBE0008BBF3 /* FastGridView.swift */,
+				23AB21E82A7ECB080064D41F /* CircularProgressView.swift */,
+				238238972A82B53A0008BBF3 /* CalendarView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		23AB21F82A7ED00A0064D41F /* Bundle */ = {
+			isa = PBXGroup;
+			children = (
+				23AB21E62A7ECB080064D41F /* MyNetDiaryFastingDemoApp.swift */,
+				23AB21EC2A7ECB090064D41F /* MyNetDiaryFastingDemo.entitlements */,
+			);
+			path = Bundle;
+			sourceTree = "<group>";
+		};
+		23AB21FB2A7ED0220064D41F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				23AB21F92A7ED01F0064D41F /* View+Extensions.swift */,
+				23AB21FC2A7ED5B10064D41F /* Date+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23AB21E22A7ECB080064D41F /* MyNetDiaryFastingDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23AB21F22A7ECB090064D41F /* Build configuration list for PBXNativeTarget "MyNetDiaryFastingDemo" */;
+			buildPhases = (
+				23AB21DF2A7ECB080064D41F /* Sources */,
+				23AB21E02A7ECB080064D41F /* Frameworks */,
+				23AB21E12A7ECB080064D41F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyNetDiaryFastingDemo;
+			productName = MyNetDiaryFastingDemo;
+			productReference = 23AB21E32A7ECB080064D41F /* MyNetDiaryFastingDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23AB21DB2A7ECB080064D41F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					23AB21E22A7ECB080064D41F = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 23AB21DE2A7ECB080064D41F /* Build configuration list for PBXProject "MyNetDiaryFastingDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23AB21DA2A7ECB080064D41F;
+			productRefGroup = 23AB21E42A7ECB080064D41F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23AB21E22A7ECB080064D41F /* MyNetDiaryFastingDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23AB21E12A7ECB080064D41F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23AB21EF2A7ECB090064D41F /* Preview Assets.xcassets in Resources */,
+				23AB21EB2A7ECB090064D41F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23AB21DF2A7ECB080064D41F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				238238982A82B53A0008BBF3 /* CalendarView.swift in Sources */,
+				23AB21E92A7ECB080064D41F /* CircularProgressView.swift in Sources */,
+				238238922A7F2DBE0008BBF3 /* FastGridView.swift in Sources */,
+				23AB21E72A7ECB080064D41F /* MyNetDiaryFastingDemoApp.swift in Sources */,
+				238238962A81B5510008BBF3 /* CircularProgressStyle.swift in Sources */,
+				23AB21FA2A7ED01F0064D41F /* View+Extensions.swift in Sources */,
+				2382388D2A7F27070008BBF3 /* Fast.swift in Sources */,
+				238238942A80046F0008BBF3 /* DashboardingFastingView-ALT.swift in Sources */,
+				23AB21FD2A7ED5B10064D41F /* Date+Extensions.swift in Sources */,
+				23AB21F62A7ECCB70064D41F /* DashboardFastingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		23AB21F02A7ECB090064D41F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		23AB21F12A7ECB090064D41F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		23AB21F32A7ECB090064D41F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MyNetDiaryFastingDemo/Bundle/MyNetDiaryFastingDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"MyNetDiaryFastingDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = 8T3W9YR268;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.greenace.MyNetDiaryFastingDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		23AB21F42A7ECB090064D41F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MyNetDiaryFastingDemo/Bundle/MyNetDiaryFastingDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"MyNetDiaryFastingDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = 8T3W9YR268;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.greenace.MyNetDiaryFastingDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23AB21DE2A7ECB080064D41F /* Build configuration list for PBXProject "MyNetDiaryFastingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23AB21F02A7ECB090064D41F /* Debug */,
+				23AB21F12A7ECB090064D41F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23AB21F22A7ECB090064D41F /* Build configuration list for PBXNativeTarget "MyNetDiaryFastingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23AB21F32A7ECB090064D41F /* Debug */,
+				23AB21F42A7ECB090064D41F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23AB21DB2A7ECB080064D41F /* Project object */;
+}
